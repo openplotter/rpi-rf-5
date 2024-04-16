@@ -11,7 +11,7 @@ setup(
     version='0.9.7',
     author='Micha LaQua',
     author_email='micha.laqua@gmail.com',
-    description='Sending and receiving 433/315MHz signals with low-cost GPIO RF modules on a Raspberry Pi',
+    description='Sending and receiving 433/315MHz signals with low-cost GPIO RF modules on a Raspberry Pi 5',
     long_description=long_description,
     url='https://github.com/milaq/rpi-rf',
     license='BSD',
@@ -29,14 +29,14 @@ setup(
         'raspberry',
         'raspberry pi',
         'rf',
-        'gpio',
+        'gpiozero',
         'radio',
         '433',
         '433mhz',
         '315',
         '315mhz'
     ],
-    install_requires=['RPi.GPIO'],
+    install_requires=['gpiozero'],
     scripts=['scripts/rpi-rf_send', 'scripts/rpi-rf_receive'],
     packages=find_packages(exclude=['contrib', 'docs', 'tests'])
 )
