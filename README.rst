@@ -4,9 +4,7 @@ rpi-rf
 Introduction
 ------------
 
-Python module for sending and receiving 433/315MHz LPD/SRD signals with generic low-cost GPIO RF modules on a Raspberry Pi.
-
-Protocol and base logic ported ported from `rc-switch`_.
+Forked from rpi-rf to support rasberry pi 5 using the gpiozero library.
 
 Supported hardware
 ------------------
@@ -39,7 +37,7 @@ Dependencies
 
 ::
 
-    RPi.GPIO
+    gpiozero
 
 Installation
 ------------
