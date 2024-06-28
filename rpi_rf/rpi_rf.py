@@ -10,7 +10,7 @@ from collections import namedtuple
 import gpiozero
 from gpiozero.pins.lgpio import LGPIOFactory
 from gpiozero import Device
-Device.pin_factory = LGPIOFactory(chip=4)
+Device.pin_factory = LGPIOFactory(chip=0)
 
 MAX_CHANGES = 67
 
